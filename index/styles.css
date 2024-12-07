@@ -1,0 +1,191 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #003366; /* Deep blue header */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #00599C; 
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #003366; 
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('file:///C:/Users/Madushan/Desktop/book%20web%20page/cabinet-table-book-globe-wallpaper-preview.jpg');
+    background-size: cover;  
+    background-position: center; 
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 9px 9px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), 6px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Optional Overlay for Hero Section */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+/* Button Section */
+.cta-btn-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.btn {
+    background-color: #ff6f61; 
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 25px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #d54e44; 
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.feature {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    color: #003366;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #555;
+}
+.small-paragraph {
+  color: black;
+  background-color: lightblue;
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+/* Footer Section */
+footer {
+    background-image: url('file:///C:/Users/Madushan/Desktop/book%20web%20page/HD-wallpaper-about-%E2%86%92-dark-academia-see-more-about-dark-academia-aesthetic-and-books.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer .credits {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer .highlight {
+    color: #ff6f61;
+    text-decoration: none;
+}

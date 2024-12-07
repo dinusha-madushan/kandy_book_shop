@@ -1,0 +1,6 @@
+File Structure
+index.html: Home page
+books.html: Books list
+about.html: About the store
+contact.html: Contact page
+styles.css: External CSS file for consistent styling
